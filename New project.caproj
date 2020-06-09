@@ -8,9 +8,14 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>kyxexajjvs9b</unique-id>
-    <saved-with-version>27500</saved-with-version>
-    <used-plugins />
-    <used-behaviors />
+    <saved-with-version>27700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -37,7 +42,282 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="Sprite" sid="946759119308609">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default_green" pingpong="0" repeatcount="1" repeatto="0" sid="444743215292214" speed="5">
+                    <frame duration="1" hotspotX="3.075" hotspotY="2.07692" original-source="C:\Users\joandjo\Desktop\jODGJn4.png">
+                        <collision-poly>
+                            <point x="0.35" y="0.358974" />
+                            <point x="1" y="0.25641" />
+                            <point x="1" y="1" />
+                            <point x="0.2" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512821" />
+                </animation>
+                <animation framecount="3" loop="0" name="ID_RIGHT" pingpong="0" repeatcount="1" repeatto="0" sid="352950502240548" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="2.84091" hotspotY="2.84091" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_LEFT" pingpong="0" repeatcount="1" repeatto="0" sid="710230894431458" speed="5">
+                    <frame duration="1" hotspotX="2.71739" hotspotY="2.97619" />
+                    <frame duration="1" hotspotX="0.432432" hotspotY="0.487179" />
+                    <frame duration="1" hotspotX="0.418605" hotspotY="0.473684" />
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_BOT" pingpong="0" repeatcount="1" repeatto="0" sid="662356028189119" speed="5">
+                    <frame duration="1" hotspotX="3.57143" hotspotY="3.20513" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.564103" />
+                    <frame duration="1" hotspotX="0.527778" hotspotY="0.511628" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_TOP" pingpong="0" repeatcount="1" repeatto="0" sid="611261658917685" speed="5">
+                    <frame duration="1" hotspotX="3.125" hotspotY="2.90698" />
+                    <frame duration="1" hotspotX="0.47619" hotspotY="0.466667" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510638" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510638" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="574723683540841">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default_White" pingpong="0" repeatcount="1" repeatto="0" sid="954870306666782" speed="5">
+                    <frame duration="1" hotspotX="7.625" hotspotY="4.28947" original-source="C:\Users\joandjo\Desktop\jODGJn4.png">
+                        <collision-poly>
+                            <point x="0.4375" y="0.368421" />
+                            <point x="1" y="0.263158" />
+                            <point x="1" y="1" />
+                            <point x="0.25" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_LEFT" pingpong="0" repeatcount="1" repeatto="0" sid="558944030727325" speed="5">
+                    <frame duration="1" hotspotX="3.04878" hotspotY="3.04878" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.525" />
+                    <frame duration="1" hotspotX="0.520833" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_RIGHT" pingpong="0" repeatcount="1" repeatto="0" sid="924480662791176" speed="5">
+                    <frame duration="1" hotspotX="2.97619" hotspotY="2.71739" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.560976" />
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.52381" />
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_BOT" pingpong="0" repeatcount="1" repeatto="0" sid="454996716003009" speed="5">
+                    <frame duration="1" hotspotX="0.53125" hotspotY="0.552632" />
+                    <frame duration="1" hotspotX="2.97619" hotspotY="3.125" />
+                    <frame duration="1" hotspotX="0.617647" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_TOP" pingpong="0" repeatcount="1" repeatto="0" sid="248020516306391" speed="5">
+                    <frame duration="1" hotspotX="3.67647" hotspotY="2.84091" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="0.52381" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="147127362798887">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default_Brun" pingpong="0" repeatcount="1" repeatto="0" sid="629302284108904" speed="5">
+                    <frame duration="1" hotspotX="6.97143" hotspotY="3.97561" original-source="C:\Users\joandjo\Desktop\jODGJn4.png">
+                        <collision-poly>
+                            <point x="0.4" y="0.341463" />
+                            <point x="1" y="0.243902" />
+                            <point x="1" y="1" />
+                            <point x="0.228571" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.512195" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_RIGHT" pingpong="0" repeatcount="1" repeatto="0" sid="986975994270531" speed="5">
+                    <frame duration="1" hotspotX="2.97619" hotspotY="3.125" />
+                    <frame duration="1" hotspotX="0.446809" hotspotY="0.526316" />
+                    <frame duration="1" hotspotX="0.55814" hotspotY="0.452381" />
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_LEFT" pingpong="0" repeatcount="1" repeatto="0" sid="808746576912536" speed="5">
+                    <frame duration="1" hotspotX="2.84091" hotspotY="3.04878" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="0.487179" />
+                    <frame duration="1" hotspotX="0.404255" hotspotY="0.465116" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="0.511628" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_TOP" pingpong="0" repeatcount="1" repeatto="0" sid="336500006817924" speed="5">
+                    <frame duration="1" hotspotX="2.90698" hotspotY="2.65957" />
+                    <frame duration="1" hotspotX="0.46875" hotspotY="0.545455" />
+                    <frame duration="1" hotspotX="0.355556" hotspotY="0.52381" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_BOT" pingpong="0" repeatcount="1" repeatto="0" sid="713768215337450" speed="5">
+                    <frame duration="1" hotspotX="3.67647" hotspotY="3.04878" />
+                    <frame duration="1" hotspotX="0.447368" hotspotY="0.525" />
+                    <frame duration="1" hotspotX="0.452381" hotspotY="0.512821" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512821" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="699039176418676">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="player_direction" sid="618062133102659" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="457355939464036">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default_grey" pingpong="0" repeatcount="1" repeatto="0" sid="280313785141709" speed="5">
+                    <frame duration="1" hotspotX="5.67442" hotspotY="4.28947" original-source="C:\Users\joandjo\Desktop\jODGJn4.png">
+                        <collision-poly>
+                            <point x="0.325581" y="0.368421" />
+                            <point x="1" y="0.263158" />
+                            <point x="1" y="1" />
+                            <point x="0.186046" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_RIGHT" pingpong="0" repeatcount="1" repeatto="0" sid="597627496190827" speed="5">
+                    <frame duration="1" hotspotX="2.97619" hotspotY="3.20513" />
+                    <frame duration="1" hotspotX="0.477273" hotspotY="0.454545" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.511628" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_LEFT" pingpong="0" repeatcount="1" repeatto="0" sid="909385538767417" speed="5">
+                    <frame duration="1" hotspotX="2.71739" hotspotY="3.04878" />
+                    <frame duration="1" hotspotX="0.534884" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.468085" hotspotY="0.552632" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_BOT" pingpong="0" repeatcount="1" repeatto="0" sid="143375784230318" speed="5">
+                    <frame duration="1" hotspotX="3.125" hotspotY="3.47222" />
+                    <frame duration="1" hotspotX="0.571429" hotspotY="0.428571" />
+                    <frame duration="1" hotspotX="0.418605" hotspotY="0.552632" />
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_TOP" pingpong="0" repeatcount="1" repeatto="0" sid="417677950501269" speed="5">
+                    <frame duration="1" hotspotX="3.57143" hotspotY="3.20513" />
+                    <frame duration="1" hotspotX="0.418605" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.594595" hotspotY="0.487805" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="0.512195" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="154883021422641">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default_Brownlight" pingpong="0" repeatcount="1" repeatto="0" sid="642974356628919" speed="5">
+                    <frame duration="1" hotspotX="6.25641" hotspotY="3.97561" original-source="C:\Users\joandjo\Desktop\sprite\jODGJn4.png">
+                        <collision-poly>
+                            <point x="0.358974" y="0.341463" />
+                            <point x="1" y="0.243902" />
+                            <point x="1" y="1" />
+                            <point x="0.205128" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.512821" hotspotY="0.512195" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_RIGHT" pingpong="0" repeatcount="1" repeatto="0" sid="297882063347063" speed="5">
+                    <frame duration="1" hotspotX="3.125" hotspotY="2.90698" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="0.538462" />
+                    <frame duration="1" hotspotX="0.461538" hotspotY="0.459459" />
+                    <frame duration="1" hotspotX="0.512821" hotspotY="0.513514" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_LEFT" pingpong="0" repeatcount="1" repeatto="0" sid="126582177683404" speed="5">
+                    <frame duration="1" hotspotX="2.60417" hotspotY="3.20513" />
+                    <frame duration="1" hotspotX="0.571429" hotspotY="0.512821" />
+                    <frame duration="1" hotspotX="0.473684" hotspotY="0.512821" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512821" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_TOP" pingpong="0" repeatcount="1" repeatto="0" sid="578263355588807" speed="5">
+                    <frame duration="1" hotspotX="3.9375" hotspotY="3.31579" />
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.512195" />
+                    <frame duration="1" hotspotX="0.483871" hotspotY="0.512195" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.512195" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_BOT" pingpong="0" repeatcount="1" repeatto="0" sid="907619279318885" speed="5">
+                    <frame duration="1" hotspotX="3.78788" hotspotY="3.37838" />
+                    <frame duration="1" hotspotX="0.533333" hotspotY="0.527778" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="589486807770788">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Defaul_Blackt" pingpong="0" repeatcount="1" repeatto="0" sid="590497670428869" speed="5">
+                    <frame duration="1" hotspotX="6.1" hotspotY="4.075" original-source="C:\Users\joandjo\Desktop\sprite\jODGJn4.png">
+                        <collision-poly>
+                            <point x="0.35" y="0.35" />
+                            <point x="1" y="0.25" />
+                            <point x="1" y="1" />
+                            <point x="0.2" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_RIGHT" pingpong="0" repeatcount="1" repeatto="0" sid="313120996042658" speed="5">
+                    <frame duration="1" hotspotX="2.90698" hotspotY="3.125" />
+                    <frame duration="1" hotspotX="0.567568" hotspotY="0.525" />
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_LEFT" pingpong="0" repeatcount="1" repeatto="0" sid="575741258528123" speed="5">
+                    <frame duration="1" hotspotX="2.84091" hotspotY="2.84091" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="0.564103" />
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.555556" />
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_TOP" pingpong="0" repeatcount="1" repeatto="0" sid="593362027887197" speed="5">
+                    <frame duration="1" hotspotX="3.47222" hotspotY="3.04878" />
+                    <frame duration="1" hotspotX="0.5625" hotspotY="0.521739" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.560976" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512195" />
+                </animation>
+                <animation framecount="4" loop="0" name="ID_BOT" pingpong="0" repeatcount="1" repeatto="0" sid="972689186153423" speed="5">
+                    <frame duration="1" hotspotX="3.04878" hotspotY="3.20513" />
+                    <frame duration="1" hotspotX="0.525" hotspotY="0.526316" />
+                    <frame duration="1" hotspotX="0.580645" hotspotY="0.567568" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.513514" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="682928164686078">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite7" sid="356184528065257">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="337591972827978" speed="5">
+                    <frame duration="1" hotspotX="1.87324" hotspotY="0.0694444" original-source="C:\Users\joandjo\Desktop\gg.PNG" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="ID_grey" pingpong="0" repeatcount="1" repeatto="0" sid="514524391280652" speed="5">
+                    <frame duration="1" hotspotX="3.47222" hotspotY="3.67647" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" />
+                </animation>
+                <animation framecount="3" loop="0" name="ID_marber" pingpong="0" repeatcount="1" repeatto="0" sid="962308594536213" speed="5">
+                    <frame duration="1" hotspotX="3.37838" hotspotY="3.57143" />
+                    <frame duration="1" hotspotX="0.542857" hotspotY="0.514286" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" />
+                </animation>
+                <animation framecount="3" loop="0" name="ID_lightgrey" pingpong="0" repeatcount="1" repeatto="0" sid="928499999628388" speed="5">
+                    <frame duration="1" hotspotX="3.78788" hotspotY="3.67647" />
+                    <frame duration="1" hotspotX="0.53125" hotspotY="0.53125" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
@@ -45,7 +325,9 @@
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Keyboard" uid="6" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>

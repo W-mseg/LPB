@@ -14,7 +14,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="1">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
         <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
@@ -25,5 +28,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
     </folders-expanded>
 </c2uistate>
