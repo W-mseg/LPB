@@ -15,6 +15,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -47,14 +48,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default_green" pingpong="0" repeatcount="1" repeatto="0" sid="444743215292214" speed="5">
-                    <frame duration="1" hotspotX="3.075" hotspotY="2.07692" original-source="C:\Users\joandjo\Desktop\jODGJn4.png">
-                        <collision-poly>
-                            <point x="0.35" y="0.358974" />
-                            <point x="1" y="0.25641" />
-                            <point x="1" y="1" />
-                            <point x="0.2" y="1" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="3.075" hotspotY="2.07692" original-source="C:\Users\joandjo\Desktop\jODGJn4.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.512821" />
                 </animation>
                 <animation framecount="3" loop="0" name="ID_RIGHT" pingpong="0" repeatcount="1" repeatto="0" sid="352950502240548" speed="5">
@@ -252,16 +246,14 @@
         </object-type>
         <object-type name="Sprite2" sid="589486807770788">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="703686408543565">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="2" loop="0" name="Defaul_Blackt" pingpong="0" repeatcount="1" repeatto="0" sid="590497670428869" speed="5">
-                    <frame duration="1" hotspotX="6.1" hotspotY="4.075" original-source="C:\Users\joandjo\Desktop\sprite\jODGJn4.png">
-                        <collision-poly>
-                            <point x="0.35" y="0.35" />
-                            <point x="1" y="0.25" />
-                            <point x="1" y="1" />
-                            <point x="0.2" y="1" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="6.1" hotspotY="4.075" original-source="C:\Users\joandjo\Desktop\sprite\jODGJn4.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
                 <animation framecount="4" loop="0" name="ID_RIGHT" pingpong="0" repeatcount="1" repeatto="0" sid="313120996042658" speed="5">
@@ -314,6 +306,80 @@
                     <frame duration="1" hotspotX="3.78788" hotspotY="3.67647" />
                     <frame duration="1" hotspotX="0.53125" hotspotY="0.53125" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BackImg" sid="807999365042964">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="780091457156456" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Chris\Desktop\temporaire\GAME\map1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CollisionsLR" sid="329792236291340">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="666659057824871">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149295380048784" speed="5">
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.500734" original-source="C:\Users\Chris\Desktop\temporaire\GAME\mur2.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.509545" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.500734" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CollisionsTB" sid="219260468254793">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="462002877469071">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="330303721918180" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Chris\Desktop\temporaire\GAME\mur1.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0.0333333" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CollisionsTrous" sid="832400265694141">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="383644223755091">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="938968935007908" speed="5">
+                    <frame duration="1" hotspotX="0.504673" hotspotY="0.5" original-source="C:\Users\Chris\Desktop\temporaire\GAME\trou.jpg">
+                        <collision-poly>
+                            <point x="0" y="0.65" />
+                            <point x="0.425234" y="0.65" />
+                            <point x="0.432243" y="0.00555556" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
