@@ -17,6 +17,8 @@
 
 ### Assets:
 
+map faites à la main
+
 1. [Map Light](https://cdn.discordapp.com/attachments/654763750116818944/720381321091874956/lighter-1.png.png)
 2. [Map Dark](https://cdn.discordapp.com/attachments/654763750116818944/720380714520019015/euhuehuh-1.png.png)
 3. [Map Other](https://cdn.discordapp.com/attachments/713355455866601503/720677822401871931/map1.jpg)
